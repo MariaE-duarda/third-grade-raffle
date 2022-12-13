@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins';
 }
 
 #menu {
@@ -19,4 +21,69 @@
 .list-img{
     width: 70px;
     margin-left: 10px;
+}
+
+main{
+    margin-top: 100px;
+}
+
+.calculator-wrapper {
+    max-width: 400px;
+    height: 90px;
+	text-align: center;
+    font-size: 30px;
+    border-top: 0px;
+    margin: 50px auto;
+    font-size: 30px;
+    border-spacing: 0rem; 
+    margin-top: 100px;
+    background-color: white;
+    color: black; 
+}
+
+td {
+    width: 20%;  
+    border: 1px solid black;
+    padding: 15px;
+    cursor: pointer;
+    border-spacing: 0px;
+}
+
+.number:hover  {
+    background: #9403f4;
+    color: #050801;
+}
+
+.number:active {
+    color: white;
+}
+
+@media(max-width: 800px){
+    td{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 600px){
+    td{
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 520px){
+    td{
+        font-size: 11px;
+    }
+}
+
+@media(max-width: 470px){
+    td{
+        font-size: 8px;
+    }
+}
+
+@media(max-width: 430px){
+    td{
+        font-size: 5px;
+    }
 }
