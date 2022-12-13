@@ -58,32 +58,20 @@ td {
     color: white;
 }
 
-@media(max-width: 800px){
-    td{
-        font-size: 15px;
-    }
-}
-
 @media(max-width: 600px){
     td{
-        font-size: 13px;
+        font-size: 23px;
     }
 }
 
 @media(max-width: 520px){
     td{
-        font-size: 11px;
-    }
-}
-
-@media(max-width: 470px){
-    td{
-        font-size: 8px;
+        font-size: px;
     }
 }
 
 @media(max-width: 430px){
     td{
-        font-size: 5px;
+        font-size: 17px;
     }
 }
