@@ -55,10 +55,20 @@ button{
     background-color: rgb(192, 105, 148);
     color: white;
     cursor: pointer;
+    transition: .5s;
 }
 
 button:hover{
-    background-color: #3f5752;
+    background-color: rgb(150, 72, 111);
+}
+
+button:focus{
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 @media(max-width: 1000px){

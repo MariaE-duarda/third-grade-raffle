@@ -1,0 +1,22 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    background-image: linear-gradient( 103.3deg,  rgba(252,225,208,1) 30%, rgba(255,173,214,1) 55.7%, rgba(162,186,245,1) 81.8% );
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    transition: .4s;
+}
+
+.list-img{
+    width: 70px;
+    margin-left: 10px;
+}
