@@ -47,6 +47,7 @@ input, button{
 input{
     padding: 10px;
     border: none;
+    transition: .5s;
 }
 
 button{
@@ -66,25 +67,52 @@ button:focus{
     border: none;
 }
 
+b{
+    color: rgb(110, 57, 84);
+}
+
 a{
     text-decoration: none;
     color: white;
 }
 
+.footer{
+    border: 2px solid rgb(192, 105, 148);
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: .5s;
+}
+
 @media(max-width: 1000px){
-    input, button{
+    input, button, .footer{
         width: 40%;
+    }
+
+    .footer{
+        margin-left: 30%;
     }
 }
 
 @media(max-width: 700px){
-    input, button{
+    input, button, .footer{
         width: 60%;
+    }
+
+    .footer{
+        margin-left: 20%;
     }
 }
 
 @media(max-width:390px){
-    input, button{
+    input, button, .footer{
         width: 70%
+    }
+
+    .footer{
+        margin-left: 15%;
     }
 }
